@@ -1,0 +1,101 @@
+
+body {
+  width: 100%;
+  background-color: var(--pure-white);
+  height: 100%;
+  text-align: left;
+  font-size: var(--heading-l-size);
+  color: var(--gunmetal);
+  font-family: var(--body-m);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+:root {
+  /* fonts */
+  --body-m: "Inter", sans-serif;
+
+  /* font sizes */
+  --body-m-size: 16px;
+  --heading-s-size: 20px;
+  --heading-l-size: 48px;
+  --heading-m-size: 24px;
+  --body-s-size: 14px;
+  --heading-xl-size: 64px;
+  --fs-heading-XL: 4rem;
+  --fs-heading-L: 3rem;
+  --fs-heading-ML: 2rem;
+  --fs-heading-M: 1.5rem;
+  --fs-heading-S: 1.25rem;
+  --fs-body-S: 0.875rem;
+
+  /* font weight */
+  --fw-semibold: 600;
+  --fw-regular: 400;
+
+  /* other sizes */
+  --ls-heading-XL: -0.2rem;
+  --ls-heading-L: -0.15rem;
+  --ls-heading-ML: -0.1rem;
+  --ls-heading-M: -0.075rem;
+  --ls-heading-S: -0.0625rem;
+
+  /* Colors */
+  --pure-white: #fff;
+  --dark-electric-blue: #5e6e85;
+  --gunmetal: #253347;
+  --borders: #d8e2e7;
+  --blue: #345ff6;
+  --clr-blue: #345ff6;
+  --clr-lightblue: #e1e7fe;
+  --clr-blue-15: hsla(227, 92%, 58%, 0.15);
+  --clr-gunmetal: #253347;
+  --clr-darkeletricblue: #5e6e85;
+  --clr-borders: #d8e2e7;
+  --clr-purewhite: #ffffff;
+  --clr-gradient1: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
+  --clr-gradient2: linear-gradient(
+    290deg,
+    #d6e6fe 0%,
+    rgba(214, 252, 254, 0) 100%
+  );
+  --clr-gradient3: linear-gradient(
+      290deg,
+      hsla(0, 0%, 100%, 0.75) 0,
+      hsla(0, 0%, 100%, 0.25) 100%
+    ),
+    linear-gradient(290deg, #d6e6fe 0%, rgba(214, 252, 254, 0) 100%);
+  --clr-boxshadow-card: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-16xl: 35px;
+  --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-lg: 18px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-16xl: 35px;
+  --br-980xl: 999px;
+  --br-xs: 12px;
+
+  /* height */
+  --lh-heading: 110%;
+  --lh-body: 150%;
+}
+
+

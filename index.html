@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body class="main">
+      <nav>
+        <div class="logo">
+          <img
+            class="logoiImage"
+            alt="logo"
+            src="./public/gameiconsabstract082.svg"
+          />
+      </nav>
+      <section class="bmi">
+        <div class="textContainer">
+          <div class="hero_title2">
+            <h3>Body Mass Index Calculator</h3>
+          </div>
+          <div class="desc">
+            Better understand your weight in relation to your height using our
+            body mass index (BMI) calculator. While BMI is not the sole
+            determinant of a healthy weight, it offers a valuable starting point
+            to evaluate your overall health and well-being.
+          </div>
+        </div>
+        <div class="bmiContainer">
+          <!-- BMI Calc Start -->
+      <div class="hero-bmi-calc">
+        <fieldset class="calc-unit-selection">
+          <legend class="calc-heading">Enter your details below</legend>
+          <div class="calc-measurement-units">
+            <div class="selectOptions">
+              <input class="tablinks" type="radio" id="metric-unit" value="metric" name="calc-unit" checked>
+              <label for="metric-unit">Metric</label>
+            </div>
+            <div class="selectOptions">
+              <input class="tablinks" type="radio" id="imperial-unit" value="imperial" name="calc-unit">
+              <label for="imperial-unit">Imperial</label>
+            </div>
+          </div>
+        </fieldset>
+        <!-- BMI Calc Metric -->
+        <div class="calc-metric-group">
+          <div class="calc-metric-height">
+            <label for="metric-height" class="calc-measurement-label">Height</label>
+            <div class="calc-unit-container">
+              <input type="number" id="metric-height" name="height" placeholder="0" min="0" class="metric-input">
+              <span class="calc-measurement-unit-abbrev">cm</span>
+            </div>
+          </div>
+          <div class="calc-metric-weight">
+            <label for="metric-weight" class="calc-measurement-label">Weight</label>
+            <div class="calc-unit-container">
+              <input type="number" id="metric-weight" name="weight" placeholder="0" min="0" class="metric-input">
+              <span class="calc-measurement-unit-abbrev">kg</span>
+            </div>
+          </div>
+        </div>
+        <!-- BMI Calc Imperial -->
+        <div class="calc-imperial-group hide">
+          <div class="calc-imperial-height-group">
+            <label for="imperial-height-ft"  class="calc-measurement-label">Height</label>
+            <div class="calc-imperial-height-row">
+              <div class="calc-imperial-height">
+                <div class="calc-unit-container">
+                  <input type="number" id="imperial-height-ft" name="height" placeholder="0" min="0" class="imperial-input">
+                  <span class="calc-measurement-unit-abbrev">ft</span>
+                </div>
+              </div>
+              <div class="calc-imperial-height">
+                <div  class="calc-unit-container">
+                  <input type="number" id="imperial-height-in" name="height" placeholder="0" min="0" class="imperial-input">
+                  <span class="calc-measurement-unit-abbrev">in</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calc-imperial-weight-group">
+            <label for="imperial-weight-st"  class="calc-measurement-label">Weight</label>
+            <div class="calc-imperial-weight-row">
+              <div class="calc-imperial-weight">
+                <div class="calc-unit-container">
+                  <input type="number" id="imperial-weight-st" name="weight" placeholder="0" min="0" class="imperial-input">
+                  <span class="calc-measurement-unit-abbrev">st</span>
+                </div>
+              </div>
+              <div class="calc-imperial-weight">
+                <div class="calc-unit-container">
+                  <input type="number" id="imperial-weight-lbs" name="weight" placeholder="0" min="0" class="imperial-input">
+                  <span class="calc-measurement-unit-abbrev">lbs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- BMi Calc Results -->
+        <div id="result-block" class="welcome-block">
+          <div id="welcome-msg">
+            <span class="texttSize">Welcome!</span>
+            <p>Enter your height and weight and you’ll see your BMI result here</p>
+          </div>
+          <div class="results-summary hide">
+            <span class="calc-bmi-results-intro">Your BMI is...</span><br>
+            <span id="calc-bmi-results-score" class="texttSize"></span>
+          </div>
+          <p class="calc-bmi-results-summary results-summary hide">
+            Your BMI suggests <span id="calc-bmi-results-classification" class="textBold">..</span>.
+            Your ideal weight is between <span id="calc-bmi-resutls-range" class="textBold">..</span>.
+          </p>
+        </div>
+      </div>
+      <!-- BMI Calc End -->
+      </div>
+      </section>
+      <section class="bmi">
+      <div class="hero2">
+          <div class="heroImage">
+            <!-- group-child -->
+            <!-- image-removebg-preview283-1-icon -->
+            <img
+              class="imageHero"
+              alt=""
+              src="./public/imageremovebgpreview283-1@2x.png"
+            />
+          </div>
+        <div class="textContainer">
+          <h3 class="hero_title2">
+            What your BMI result means
+          </h3>
+          <div class="desc">
+            A BMI range of 18.5 to 24.9 is considered a 'healthy weight.'
+            Maintaining a healthy weight may lower your chances of experiencing
+            health issues later on, such as obesity and type 2 diabetes. Aim for
+            a nutritious diet with reduced fat and sugar content, incorporating
+            ample fruits and vegetables. Additionally, strive for regular
+            physical activity, ideally about 30 minutes daily for five days a
+            week.
+          </div>
+        </div>
+        <img class="vectorA" alt="" src="./public/vector-241.svg" />
+      </div>
+    </section>
+    <section class="bmi2">
+      <div class="tips">
+        <div class="tipsContainer">
+          <div class="group-tips">
+            <img class="" alt="" src="./public/group-40.svg" />
+            <div class="tipsTextContainer">
+              <div class="title">Healthy eating</div>
+              <div class="desc_tips">
+                Healthy eating promotes weight control, disease prevention,
+                better digestion, immunity, mental clarity, and mood.
+              </div>
+            </div>
+            
+          </div>
+          <div class="group-tips"> 
+            <img class="" alt="" src="./public/group-41.svg" />
+            <div class="tipsTextContainer">
+              <div class="title">Regular exercise</div>
+              <div class="desc_tips">
+                Exercise improves fitness, aids weight control, elevates mood,
+                and reduces disease risk, fostering wellness and longevity.
+              </div>
+            </div>
+            
+          </div>
+          <div class="group-tips">
+            <img class="" alt="" src="./public/group-42.svg" />
+            <div class="tipsTextContainer">
+              <div class="title">Adequate sleep</div>
+              <div class="desc_tips">
+                Sleep enhances mental clarity, emotional stability, and physical
+                wellness, promoting overall restoration and rejuvenation.
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bmi"> 
+      <div class="hero3">
+        <div class="containerA">
+          <div class="textContainer2">
+            <div class="hero_title2">Limitations of BMI</div>
+            <div class="desc">
+              Although BMI is often a practical indicator of healthy weight, it is
+              not suited for every person. Specific groups should carefully
+              consider their BMI outcomes, and in certain cases, the measurement
+              may not be beneficial to use.
+            </div>
+          </div>
+          <div class="wrapper">
+              <div class="commentsLogo">
+                <img
+                  class="icon"
+                  alt=""
+                  src="./public/phgenderintersexlight.svg"
+                />
+                <div class="iconTitle">Gender</div>
+              </div>
+              <div class="desc_tips">
+                The development and body fat composition of girls and boys vary
+                with age. Consequently, a child's age and gender are considered
+                when evaluating their BMI.
+              </div>
+          </div>
+        </div>
+        <div class="commentContainer">        
+            <div class="wrapper">
+              <div class="commentsLogo">
+                <img
+                  class="icon"
+                  alt=""
+                  src="./public/fluentemojihighcontrastflexedbiceps.svg"
+                />
+                <div class="iconTitle">Age</div>
+              </div>
+              <div class="desc_tips">
+                In aging individuals, increased body fat and muscle loss may
+                  cause BMI to underestimate body fat content.
+              </div>
+            </div>
+            <div class="wrapper">
+                <div class="commentsLogo">
+                  <img
+                    class="icon"
+                    alt=""
+                    src="./public/fluentemojihighcontrastflexedbiceps.svg"
+                  />
+                  <div class="iconTitle">Muscle</div>
+                </div>
+                <div class="desc_tips">
+                  BMI may misclassify muscular individuals as overweight or
+                  obese, as it doesn't differentiate muscle from fat.
+                </div>
+              </div>
+            </div>
+            <div class="commentContainer2">
+              <div class="wrapper">
+                  <div class="commentsLogo">
+                    <img
+                      class="icon"
+                      alt=""
+                      src="./public/phbabylight.svg"
+                    />
+                    <div class="iconTitle">Pregnancy</div>
+                  </div>
+                  <div class="desc_tips">
+                    Expectant mothers experience weight gain due to their growing
+                    baby. Maintaining a healthy pre-pregnancy BMI is advisable to
+                    minimise health risks for both mother and child.
+                  </div>
+              </div>
+              <div class="wrapper">
+                  <div class="commentsLogo">
+                    <img
+                      class="icon"
+                      alt=""
+                      src="./public/phpersonlight.svg"
+                    />
+                    <div class="iconTitle">Race</div>
+                  </div>
+                  <div class="desc_tips">
+                    Certain health concerns may affect individuals of some Black
+                    and Asian origins at lower BMIs than others. To learn more, it
+                    is advised to discuss this with your GP or practice nurse.
+                  </div>
+
+                </div>
+            </div>
+        </div>
+        <img
+          class="vector2"
+          alt=""
+          src="./public/vector-24.svg"
+        />
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
