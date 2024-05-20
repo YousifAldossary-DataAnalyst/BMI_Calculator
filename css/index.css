@@ -403,7 +403,7 @@ body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-un
 }
 @media (max-width: 650px) {
   body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units {
-    gap: 30%;
+    gap: 120px;
   }
 }
 @media (max-width: 1100px) {
