@@ -116,7 +116,7 @@ nav {
   width: 100%;
   position: relative;
   font-size: var(--body-m-size);
-  /* line-height: 150%; */
+  line-height: 150%;
   color: var(--dark-electric-blue);
 }
 
@@ -201,7 +201,7 @@ p {
 }
 .desc_tips {
   font-size: var(--body-m-size);
-  /* line-height: 150%; */
+  line-height: 150%;
   color: var(--dark-electric-blue);
   display: flex;
   width: 100%;
@@ -882,8 +882,8 @@ p {
     flex-direction: column;
   }
 
-  .hero_title2{
-    /* line-height: 120%; */
+  .hero_title2, .hero_title{
+    line-height: 120%;
   }
 
   .bmiContainer{
