@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   line-height: 1;
   margin: 0;
+  gap: 96px;
 }
 
 .hide {
@@ -77,6 +78,7 @@ body {
 
   /* Gaps */
   --gap-base: 16px;
+  --gap-section: 72px;
   --gap-20xl: 45px;
   --gap-16xl: 35px;
   --gap-14xl: 32px;

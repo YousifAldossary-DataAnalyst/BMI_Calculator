@@ -228,7 +228,6 @@ p {
   gap: 30%;
 }
 
-
 .commentsLogo {
   align-self: stretch;
   display: flex;
@@ -565,7 +564,7 @@ input:hover {
   align-items: center;
   gap: 10px;
   padding: 10px 10px 10px 0;
-  position: relative; 
+  position: relative;
 }
 
 .calc-unit-container > div {
@@ -582,10 +581,9 @@ input:hover {
 .welcome-message {
   display: flex;
   flex-direction: column;
-  gap: 16px
+  gap: 16px;
 }
-.welcome
- {
+.welcome {
   font-size: var(--heading-m-size) !important;
   font-weight: var(--fw-semibold);
 }
@@ -603,11 +601,15 @@ p {
 
 /* TABLET 768PX */
 @media (max-width: 1100px) {
+  body {
+    gap: 96px;
+  }
+  
   .wrapper {
     max-width: 55rem;
     margin: 0 auto;
     height: 100%;
-  }  
+  }
 
   .calc-imperial-group {
     display: flex;
@@ -642,7 +644,6 @@ p {
     padding: 0;
     flex-direction: column;
   }
-  
 
   .hero2 {
     height: 100%;
@@ -696,7 +697,6 @@ p {
   .calc-measurement-units {
     gap: 130%;
   }
-
 
   .heroImage {
     align-self: center;
@@ -862,13 +862,13 @@ p {
     align-items: center;
   }
 
-  .group-tips{
-  padding-left: 10px;
-  margin: 40px 0 20px;
+  .group-tips {
+    padding-left: 10px;
+    margin: 40px 0 20px;
   }
 
   .hero2 {
-    gap: var(--br-20xl)
+    gap: var(--br-20xl);
   }
 
   .desc {
@@ -876,36 +876,36 @@ p {
     text-align: center;
   }
 
-  .desc_tips{
+  .desc_tips {
     font-size: 14px;
     text-align: left;
   }
 
   .commentContainer,
-  .commentContainer2{
+  .commentContainer2 {
     flex-direction: column;
   }
 
-  .hero_title2, .hero_title{
+  .hero_title2,
+  .hero_title {
     line-height: 120%;
   }
 
-  .bmiContainer{
+  .bmiContainer {
     width: 100%;
     height: fit-content;
     padding: 10px;
   }
 
   .calc-metric-group,
-  .calc-imperial-group{
+  .calc-imperial-group {
     display: flex;
     flex-direction: column;
   }
 
   .calc-imperial-weight-row,
-  .calc-imperial-height-row{
+  .calc-imperial-height-row {
     flex-direction: row;
-    
   }
 
   .wrapper {
@@ -931,7 +931,7 @@ p {
     gap: 30%;
   }
 
-  .group-tips{
+  .group-tips {
     flex-direction: column;
   }
 
@@ -950,31 +950,30 @@ p {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     padding: 2rem;
-    
   }
 
-  .calc-bmi-results, .welcome-block {
+  .calc-bmi-results,
+  .welcome-block {
     border-radius: var(--br-base) var(--br-base);
   }
-
 
   .phoneTitle {
     text-align: left !important;
   }
 
   body {
-    gap: var(--gap-section)
+    gap: var(--gap-section);
   }
-  
+
   nav,
   .hero,
   .hero2,
   .hero3,
   .bmi,
   .bmi2,
-  body{
+  body {
     overflow-x: hidden;
   }
 }
