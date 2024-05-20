@@ -27,7 +27,7 @@ body {
 .hero_title {
   width: 100%;
   position: relative;
-  line-height: 150%;
+  /* line-height: 150%; */
   font-weight: 600;
   margin: 0 !important;
 }
@@ -116,7 +116,7 @@ nav {
   width: 100%;
   position: relative;
   font-size: var(--body-m-size);
-  line-height: 150%;
+  /* line-height: 150%; */
   color: var(--dark-electric-blue);
 }
 
@@ -201,7 +201,7 @@ p {
 }
 .desc_tips {
   font-size: var(--body-m-size);
-  line-height: 150%;
+  /* line-height: 150%; */
   color: var(--dark-electric-blue);
   display: flex;
   width: 100%;
@@ -883,7 +883,7 @@ p {
   }
 
   .hero_title2{
-    line-height: 120%;
+    /* line-height: 120%; */
   }
 
   .bmiContainer{
