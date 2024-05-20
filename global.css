@@ -13,7 +13,6 @@ body {
   justify-content: space-between;
   line-height: 1;
   margin: 0;
-  gap: 96px;
 }
 
 .hide {
@@ -101,5 +100,3 @@ body {
   --lh-heading: 110%;
   --lh-body: 150%;
 }
-
-

@@ -1,0 +1,942 @@
+body p {
+  font-size: var(--body-s-size) !important;
+  margin: 0;
+}
+body fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body .vectorA {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  width: 85px;
+  height: 200px;
+}
+@media (max-width: 1100px) {
+  body .vectorA {
+    display: none;
+  }
+}
+body .vector2 {
+  position: absolute;
+  top: 265%;
+  left: 30%;
+  width: 94px;
+  height: 122px;
+}
+@media (max-width: 1605px) {
+  body .vector2 {
+    display: none;
+  }
+}
+body nav {
+  padding: 100px 20px;
+}
+body nav .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-16xl) var(--br-16xl);
+  background: linear-gradient(-69.9deg, #d6e6fe, rgba(214, 252, 254, 0));
+  width: 70%;
+  height: 90%;
+  z-index: -1;
+}
+body nav .logoiImage {
+  position: absolute;
+  top: 75px;
+  left: 10%;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+}
+@media (max-width: 1100px) {
+  body nav .logoiImage {
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1100px) {
+  body nav .logoiImage {
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1100px) and (max-width: 650px) {
+  body nav .logoiImage {
+    left: 43%;
+  }
+}
+@media (max-width: 1100px) {
+  body nav .logo {
+    width: 100%;
+    height: 70%;
+  }
+}
+@media (max-width: 1100px) and (max-width: 1100px) {
+  body nav .logo {
+    width: 100%;
+    height: 70%;
+  }
+}
+@media (max-width: 1100px) and (max-width: 650px) {
+  body nav .logo {
+    height: 130%;
+  }
+}
+body .bmi .textContainer .hero_title2,
+body .bmi2 .textContainer .hero_title2 {
+  width: 100%;
+  position: relative;
+  /* line-height: 150%; */
+  font-weight: 600;
+  margin: 0 !important;
+  font-size: var(--heading-l-size);
+}
+@media (max-width: 650px) {
+  body .bmi .textContainer .hero_title2,
+  body .bmi2 .textContainer .hero_title2 {
+    line-height: 120%;
+  }
+}
+body .bmi .textContainer .desc,
+body .bmi2 .textContainer .desc {
+  width: 100%;
+  position: relative;
+  font-size: var(--body-m-size);
+  line-height: 150%;
+  color: var(--dark-electric-blue);
+}
+@media (max-width: 650px) {
+  body .bmi .textContainer .desc,
+  body .bmi2 .textContainer .desc {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .textContainer,
+  body .bmi2 .textContainer {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+}
+body .bmi .desc_tips,
+body .bmi2 .desc_tips {
+  font-size: var(--body-m-size);
+  line-height: 150%;
+  color: var(--dark-electric-blue);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+}
+@media (max-width: 650px) {
+  body .bmi .desc_tips,
+  body .bmi2 .desc_tips {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+body .bmi .title,
+body .bmi2 .title {
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  font-size: var(--heading-m-size);
+  margin: 0;
+}
+body .bmi .commentContainer,
+body .bmi2 .commentContainer {
+  padding-left: 30%;
+}
+body .bmi .commentContainer,
+body .bmi .commentContainer2,
+body .bmi2 .commentContainer,
+body .bmi2 .commentContainer2 {
+  width: fit-content;
+  height: fit-content;
+  font-size: var(--heading-s-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-direction: row;
+  gap: 30px;
+}
+@media (max-width: 1100px) {
+  body .bmi .commentContainer,
+  body .bmi .commentContainer2,
+  body .bmi2 .commentContainer,
+  body .bmi2 .commentContainer2 {
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .commentContainer,
+  body .bmi .commentContainer2,
+  body .bmi2 .commentContainer,
+  body .bmi2 .commentContainer2 {
+    flex-direction: column;
+  }
+}
+body .bmi .containerA .wrapper,
+body .bmi .commentContainer .wrapper,
+body .bmi .commentContainer2 .wrapper,
+body .bmi2 .containerA .wrapper,
+body .bmi2 .commentContainer .wrapper,
+body .bmi2 .commentContainer2 .wrapper {
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: var(--br-base);
+  background-color: var(--pure-white);
+  width: 365px;
+  overflow: hidden;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  align-self: stretch;
+  gap: var(--gap-base);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body .bmi .containerA .wrapper .commentsLogo,
+body .bmi .commentContainer .wrapper .commentsLogo,
+body .bmi .commentContainer2 .wrapper .commentsLogo,
+body .bmi2 .containerA .wrapper .commentsLogo,
+body .bmi2 .commentContainer .wrapper .commentsLogo,
+body .bmi2 .commentContainer2 .wrapper .commentsLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+body .bmi .containerA .wrapper .commentsLogo .icon,
+body .bmi .commentContainer .wrapper .commentsLogo .icon,
+body .bmi .commentContainer2 .wrapper .commentsLogo .icon,
+body .bmi2 .containerA .wrapper .commentsLogo .icon,
+body .bmi2 .commentContainer .wrapper .commentsLogo .icon,
+body .bmi2 .commentContainer2 .wrapper .commentsLogo .icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+body .bmi .containerA .wrapper .commentsLogo .iconTitle,
+body .bmi .commentContainer .wrapper .commentsLogo .iconTitle,
+body .bmi .commentContainer2 .wrapper .commentsLogo .iconTitle,
+body .bmi2 .containerA .wrapper .commentsLogo .iconTitle,
+body .bmi2 .commentContainer .wrapper .commentsLogo .iconTitle,
+body .bmi2 .commentContainer2 .wrapper .commentsLogo .iconTitle {
+  text-align: left;
+  font-size: var(--heading-s-size);
+  color: var(--gunmetal);
+  font-family: var(--body-m);
+  font-weight: 600;
+}
+@media (max-width: 1100px) {
+  body .bmi .containerA .wrapper,
+  body .bmi .commentContainer .wrapper,
+  body .bmi .commentContainer2 .wrapper,
+  body .bmi2 .containerA .wrapper,
+  body .bmi2 .commentContainer .wrapper,
+  body .bmi2 .commentContainer2 .wrapper {
+    max-width: 55rem;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .containerA .wrapper,
+  body .bmi .commentContainer .wrapper,
+  body .bmi .commentContainer2 .wrapper,
+  body .bmi2 .containerA .wrapper,
+  body .bmi2 .commentContainer .wrapper,
+  body .bmi2 .commentContainer2 .wrapper {
+    max-width: 100%;
+  }
+}
+body .bmi {
+  height: 73vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  flex-direction: row;
+  margin: 0 114px;
+  /* Section A */
+  /* Section B */
+  /* Section C */
+}
+body .bmi .textContainer {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: var(--gap-16xl);
+  justify-content: center;
+  align-items: center;
+}
+body .bmi .textContainer .hero_title {
+  width: 100%;
+  position: relative;
+  /* line-height: 150%; */
+  font-weight: 600;
+  margin: 0 !important;
+  font-size: var(--heading-xl-size);
+}
+@media (max-width: 650px) {
+  body .bmi .textContainer .hero_title {
+    line-height: 120%;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .textContainer {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .textContainer .phoneTitle {
+    text-align: left !important;
+  }
+}
+body .bmi .bmiContainer {
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: var(--br-base);
+  background-color: var(--pure-white);
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  font-size: var(--body-m-size);
+  padding: var(--padding-xl);
+}
+body .bmi .bmiContainer .hero-bmi-calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-14xl);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  border: none;
+  font-weight: 600;
+  word-spacing: 0.2;
+  font-size: 24px;
+  padding-top: var(--gap-14xl);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 130%;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units .selectOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: var(--body-m-size);
+  color: var(--gunmetal);
+  font-family: var(--body-m);
+  font-weight: 600;
+  gap: 10px;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units .selectOptions input[type=radio] {
+  width: 1.7rem;
+  height: 1.7rem;
+  appearance: none;
+  border-radius: 50%;
+  border: 1px solid var(--clr-borders);
+  margin: 0;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units .selectOptions input[type=radio]:hover {
+  border: 1px solid var(--clr-blue);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units .selectOptions input[type=radio]:checked {
+  appearance: none;
+  border-radius: 50%;
+  background-color: var(--clr-blue);
+  border: 0.45rem solid var(--clr-lightblue);
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units {
+    gap: 130%;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-units {
+    gap: 50%;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection {
+    background-color: var(--clr-purewhite);
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-imperial-height-row,
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-imperial-weight-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-imperial-height-row,
+  body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-imperial-weight-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px 10px 0;
+  position: relative;
+  /* {
+          background-color: none !important;
+          color: none;
+        } */
+  /* input[type="number"] {
+          -moz-appearance: textfield;
+          appearance: textfield;
+        }
+
+        input[type="number"]:hover {
+          -moz-appearance: textfield;
+          appearance: textfield;
+        } */
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container .calc-measurement-label,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container .calc-measurement-label {
+  display: inline-block;
+  font-size: var(--fs-body-S);
+  margin-bottom: 0.5rem;
+  color: var(--clr-darkeletricblue);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container .calc-measurement-unit-abbrev,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container .calc-measurement-unit-abbrev {
+  position: relative;
+  letter-spacing: -0.05em;
+  font-size: var(--heading-s-size);
+  font-weight: 600;
+  color: var(--blue);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number],
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number] {
+  width: 100%;
+  padding: 1.25rem 3.5rem 1.25rem 1.5rem;
+  border: none;
+  font-size: var(--fs-heading-M);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-heading-M);
+  color: var(--clr-gunmetal);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number]:focus,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number]:focus {
+  outline: none;
+  border: 1px solid var(--clr-blue);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input::-webkit-autofill,
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input:-webkit-autofill,
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input:-webkit-autofill:hover,
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input:-webkit-autofill:focus,
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input:-webkit-autofill:active,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input::-webkit-autofill,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input:-webkit-autofill,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input:-webkit-autofill:hover,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input:-webkit-autofill:focus,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number]::placeholder,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number]::placeholder {
+  /* position: absolute;
+        top: 50%;
+        transform: translate(0, -50%); */
+  font-size: var(--fs-heading-M);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-heading-M);
+  color: var(--clr-gunmetal);
+  opacity: 0.25;
+  line-height: var(--lh-heading);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number],
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number] {
+  width: 100%;
+  padding: 1.25rem 3.5rem 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--clr-borders);
+  font-size: var(--fs-heading-M);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-heading-M);
+  color: var(--clr-gunmetal);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number]:hover,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number]:hover {
+  cursor: pointer;
+  border: 1px solid var(--clr-blue);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number]:focus,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number]:focus {
+  outline: none;
+  border: 1px solid var(--clr-blue);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input[type=number]::placeholder,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input[type=number]::placeholder {
+  /* position: absolute;
+        top: 50%;
+        transform: translate(0, -50%); */
+  font-size: var(--fs-heading-M);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-heading-M);
+  color: var(--clr-gunmetal);
+  opacity: 0.25;
+  line-height: var(--lh-heading);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input:hover,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input:hover {
+  cursor: pointer;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input::-webkit-inner-spin-button,
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container input::-webkit-outer-spin-button,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input::-webkit-inner-spin-button,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-imperial-group .calc-unit-container .calc-unit-container > div,
+body .bmi .bmiContainer .hero-bmi-calc .calc-metric-group .calc-unit-container .calc-unit-container > div {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 650px) {
+  body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2rem;
+  }
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block {
+  display: flex;
+  padding: var(--padding-13xl);
+  align-self: stretch;
+  border-radius: var(--br-base) var(--br-980xl) var(--br-980xl) var(--br-base);
+  background: linear-gradient(90deg, #345ff6, #587dff);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--pure-white);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .welcome-message,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .welcome-message {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .welcome-message .welcome,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .welcome-message .welcome {
+  font-size: var(--heading-m-size) !important;
+  font-weight: var(--fw-semibold);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .results-summary,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .results-summary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .results-summary .texttSize,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .results-summary .texttSize {
+  font-size: var(--heading-l-size);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-heading-M);
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .calc-bmi-results-summary,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .calc-bmi-results-summary {
+  width: 100%;
+  width: 100%;
+  display: block;
+  text-align: left;
+  line-height: 150%;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .calc-bmi-results-summary .textBold,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .calc-bmi-results-summary .textBold {
+  font-weight: 600;
+}
+body .bmi .bmiContainer .hero-bmi-calc .calc-bmi-results .hide,
+body .bmi .bmiContainer .hero-bmi-calc .welcome-block .hide {
+  display: none;
+}
+body .bmi .bmiContainer .hero-bmi-calc .hide {
+  display: none;
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer .hero-bmi-calc {
+    background-color: var(--clr-purewhite);
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: var(--clr-boxshadow-card);
+    display: grid;
+    gap: var(--gap-14xl);
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .bmiContainer .hero-bmi-calc {
+    border-radius: var(--br-base) var(--br-base);
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .bmiContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .bmiContainer {
+    width: 100%;
+    height: fit-content;
+    padding: 0 10px;
+  }
+}
+body .bmi .hero2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 10%;
+  padding: 20px 40px;
+}
+body .bmi .hero2 .heroImage {
+  border-radius: 32px;
+  background-color: #e7f5fe;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  width: 564px;
+  height: 533px;
+  overflow: visible;
+}
+@media (max-width: 650px) {
+  body .bmi .hero2 .heroImage .imageHero {
+    width: 300px;
+    height: 350px;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .hero2 .heroImage {
+    align-self: center;
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .hero2 .heroImage {
+    align-self: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 16px 16px 0 0;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .hero2 {
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--gap-section);
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .hero2 {
+    gap: var(--gap-20xl);
+  }
+}
+body .bmi .hero3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 200px;
+}
+body .bmi .hero3 .containerA {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25%;
+}
+body .bmi .hero3 .containerA .wrapper {
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: var(--br-base);
+  background-color: var(--pure-white);
+  width: 365px;
+  overflow: hidden;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  align-self: stretch;
+  gap: var(--gap-base);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+@media (max-width: 1100px) {
+  body .bmi .hero3 .containerA .wrapper {
+    max-width: 55rem;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .hero3 .containerA {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi .hero3 .containerA {
+    width: 100%;
+    gap: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi .hero3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi {
+    height: fit-content;
+    width: 90%;
+    gap: 80px;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+body .bmi2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  flex-direction: row;
+  margin: 0 114px;
+}
+body .bmi2 .tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-5xl);
+  height: fit-content;
+  width: 100%;
+}
+body .bmi2 .tips .tipsContainer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: var(--gap-14xl);
+  border-radius: var(--br-16xl);
+  background: linear-gradient(-69.9deg, #d6e6fe, rgba(214, 252, 254, 0));
+  padding: var(--padding-13xl);
+}
+body .bmi2 .tips .tipsContainer .group-tips {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  gap: var(--gap-20xl);
+}
+body .bmi2 .tips .tipsContainer .group-tips .tipsTextContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+@media (max-width: 1100px) {
+  body .bmi2 .tips .tipsContainer .group-tips {
+    flex-direction: row;
+    margin: 40px 0 60px 60px;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi2 .tips .tipsContainer .group-tips {
+    padding-left: 10px;
+    margin: 40px 0 20px;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi2 .tips .tipsContainer {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi2 .tips {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 1100px) {
+  body .bmi2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  body .bmi2 {
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1100px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    gap: 96px;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    gap: var(--gap-section);
+    overflow-x: hidden;
+  }
+}
+body .hide {
+  display: none;
+}
+
+/*# sourceMappingURL=index.css.map */
