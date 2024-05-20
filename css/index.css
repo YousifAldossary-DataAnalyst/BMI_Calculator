@@ -409,7 +409,6 @@ body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection .calc-measurement-un
 @media (max-width: 1100px) {
   body .bmi .bmiContainer .hero-bmi-calc .calc-unit-selection {
     background-color: var(--clr-purewhite);
-    padding: 1.5rem;
     border-radius: 1rem;
   }
 }
@@ -674,6 +673,7 @@ body .bmi .bmiContainer .hero-bmi-calc .hide {
 @media (max-width: 650px) {
   body .bmi .bmiContainer .hero-bmi-calc {
     border-radius: var(--br-base) var(--br-base);
+    width: 100%;
   }
 }
 @media (max-width: 1100px) {

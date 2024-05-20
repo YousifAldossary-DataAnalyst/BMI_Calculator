@@ -378,7 +378,6 @@ body {
 
           @media (max-width: 1100px) {
             background-color: var(--clr-purewhite);
-            padding: 1.5rem;
             border-radius: 1rem;
           }
         }
@@ -651,6 +650,7 @@ body {
 
         @media (max-width: 650px) {
           border-radius: var(--br-base) var(--br-base);
+          width: 100%;
         }
       }
       @media (max-width: 1100px) {
