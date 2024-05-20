@@ -77,7 +77,9 @@ body {
 
   /* Gaps */
   --gap-base: 16px;
+  --gap-20xl: 45px;
   --gap-16xl: 35px;
+  --gap-14xl: 32px;
   --gap-5xl: 24px;
   --gap-5xs: 8px;
   --gap-lg: 18px;
