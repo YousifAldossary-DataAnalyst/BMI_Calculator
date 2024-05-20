@@ -853,7 +853,7 @@ p {
 
   .bmi2 {
     height: fit-content;
-    width: fit-content;
+    width: 100%;
   }
 
   .bmi,
@@ -865,6 +865,10 @@ p {
   .group-tips{
   padding-left: 10px;
   margin: 40px 0 20px;
+  }
+
+  .hero2 {
+    gap: var(--br-20xl)
   }
 
   .desc {
@@ -960,6 +964,10 @@ p {
     text-align: left !important;
   }
 
+  body {
+    gap: var(--gap-section)
+  }
+  
   nav,
   .hero,
   .hero2,
